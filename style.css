@@ -1,0 +1,61 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header, footer {
+  background-color: #264653;
+  color: #E76F51;
+  padding: 20px;
+}
+header h1 {
+  font-size: 40px;
+}
+main {
+  background-image: url('images/background-vib.jpg');
+  background-color: #cccccc;
+  margin: auto;
+}
+article {
+  width: 500px;
+  margin: auto;
+}
+.text-center {
+  text-align: center;
+}
+
+
+.intro, .aboutme, .contact {
+  margin: auto;
+  padding: 40px;
+  color: #264653;
+}
+
+.intro p, ul {
+  text-align: left;
+}
+
+.rounded-corners {
+  border-radius: 15px;
+}
+
+a:link {
+  color: green;
+  text-decoration: none;
+}
+a:visited {
+  color: brown;
+  text-decoration: none;
+}
+a:hover {
+  color: lightgreen;
+  text-decoration: none;
+}
+a:active {
+  color: blue;
+  text-decoration: none;
+}
