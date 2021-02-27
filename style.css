@@ -1,20 +1,23 @@
 
+/* Following best practices to define the box sizing property */
 * {
   box-sizing: border-box;
 }
-
+/* Font Family setup for the website */
 body {
   font-family: 'Roboto', sans-serif;
 }
-
+/* Styling header and footer with dark grond and text color */
 header, footer {
   background-color: #264653;
   color: #E76F51;
   padding: 20px;
 }
+/* Defined the size of h1 tag in the header */
 header h1 {
   font-size: 40px;
 }
+/* Added a background image in the main section */
 main {
   background-image: url('images/background-vib.jpg');
   background-color: #cccccc;
@@ -28,7 +31,7 @@ article {
   text-align: center;
 }
 
-
+/* Section Styles added to intro, aboutme and contact classes */
 .intro, .aboutme, .contact {
   margin: auto;
   padding: 40px;
@@ -39,10 +42,12 @@ article {
   text-align: left;
 }
 
+/* Rounded corners style for the profile image */
 .rounded-corners {
   border-radius: 15px;
 }
 
+/* Added style to the links */
 a:link {
   color: green;
   text-decoration: none;
@@ -58,4 +63,10 @@ a:hover {
 a:active {
   color: blue;
   text-decoration: none;
+}
+/* Added height to the horizontal row and styling */
+hr {
+  height: 2px;
+  border-width: 2px;
+  background-color: darkgray;
 }
